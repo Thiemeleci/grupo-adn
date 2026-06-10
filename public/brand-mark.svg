@@ -1,0 +1,29 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="110" y1="110" x2="540" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4A74A"/>
+      <stop offset="0.55" stop-color="#2DAA4F"/>
+      <stop offset="1" stop-color="#D4A74A"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="240" y1="256" x2="420" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3BCB66"/>
+      <stop offset="1" stop-color="#1A7F3C"/>
+    </linearGradient>
+    <filter id="soft" x="0" y="0" width="640" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#soft)" opacity="0.85">
+    <circle cx="320" cy="320" r="244" stroke="url(#ring)" stroke-width="18"/>
+  </g>
+  <circle cx="320" cy="320" r="244" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <path d="M260 420C260 354 292 296 320 270C348 296 380 354 380 420C380 456 366 488 350 508H290C274 488 260 456 260 420Z" fill="rgba(255,255,255,0.06)" stroke="rgba(212,167,74,0.28)" stroke-width="2"/>
+  <path d="M320 280C287 262 252 262 226 278C222 310 242 346 282 360C304 368 318 360 320 356C322 360 336 368 358 360C398 346 418 310 414 278C388 262 353 262 320 280Z" fill="url(#leaf)" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <path d="M210 355C210 300 238 250 282 222C330 192 390 192 438 222C482 250 510 300 510 355C510 420 470 474 408 502C390 510 370 516 350 518H290C270 516 250 510 232 502C170 474 130 420 130 355C130 284 174 228 238 204C220 244 224 310 260 348C292 382 348 392 386 378C424 364 452 332 460 296C472 334 458 382 422 418C382 462 318 470 270 446C236 426 210 392 210 355Z" fill="rgba(7,17,8,0.42)"/>
+
+  <text x="320" y="382" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif" font-size="92" font-weight="700" fill="#FFFFFF" letter-spacing="6">ADN</text>
+  <text x="320" y="432" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600" fill="#D8D8D8" letter-spacing="3">JARDINAGEM • MANUTENÇÃO</text>
+</svg>

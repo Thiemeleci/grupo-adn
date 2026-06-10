@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="96" y1="64" x2="416" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DAA4F"/>
+      <stop offset="0.55" stop-color="#D4A74A"/>
+      <stop offset="1" stop-color="#1A7F3C"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#071108"/>
+  <rect x="56" y="56" width="400" height="400" rx="200" stroke="url(#g)" stroke-width="14" opacity="0.9"/>
+  <path d="M256 186C224 170 192 170 170 184C166 214 184 246 222 260C240 266 252 260 256 256C260 260 272 266 290 260C328 246 346 214 342 184C320 170 288 170 256 186Z" fill="url(#g)" opacity="0.9"/>
+  <text x="256" y="328" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif" font-size="96" font-weight="800" fill="#FFFFFF" letter-spacing="8">ADN</text>
+</svg>

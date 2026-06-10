@@ -1,0 +1,37 @@
+<svg width="2400" height="1400" viewBox="0 0 2400 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g0" x1="0" y1="0" x2="2400" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06140B"/>
+      <stop offset="0.5" stop-color="#0A1A10"/>
+      <stop offset="1" stop-color="#071108"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 320) rotate(48) scale(860 680)">
+      <stop stop-color="#2DAA4F" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#2DAA4F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1840 280) rotate(124) scale(920 760)">
+      <stop stop-color="#D4A74A" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#D4A74A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurA" x="-80" y="-80" width="2560" height="1560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="2400" height="1400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.1  0 0 0 0 0.12  0 0 0 0 0.1  0 0 0 0.24 0"/>
+      <feBlend mode="overlay" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <rect width="2400" height="1400" fill="url(#g0)"/>
+  <rect width="2400" height="1400" fill="url(#g1)"/>
+  <rect width="2400" height="1400" fill="url(#g2)"/>
+
+  <g filter="url(#blurA)" opacity="0.95">
+    <path d="M0 980C220 900 520 860 760 900C1040 946 1220 1120 1560 1132C1920 1146 2180 1006 2400 930V1400H0V980Z" fill="#0A2314"/>
+    <path d="M0 750C210 660 420 630 650 668C880 706 1040 820 1260 846C1540 878 1760 760 1980 640C2160 542 2300 500 2400 500V760C2260 760 2060 808 1860 906C1650 1038 1400 1034 1120 956C860 884 660 760 420 748C240 740 120 768 0 840V750Z" fill="#08311A"/>
+    <path d="M340 540C520 460 760 430 980 470C1180 506 1300 618 1480 636C1680 656 1860 586 2020 500C2160 428 2300 390 2400 390V520C2300 520 2160 560 2000 650C1820 758 1600 774 1360 720C1120 668 940 580 760 562C560 544 440 574 340 620V540Z" fill="#0B1E12"/>
+  </g>
+
+  <rect width="2400" height="1400" filter="url(#grain)" opacity="0.55"/>
+</svg>
